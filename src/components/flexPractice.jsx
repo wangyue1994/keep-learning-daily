@@ -1,0 +1,18 @@
+// import React from 'react'
+
+// export default class FlexPractice extends React.Component {
+//     constructor() {
+//         super()
+//     }
+
+//     render() {
+//         <div>
+//             <header>header</header>
+//             <nav>nav</nav>
+//             <article>article</article>
+//             <section>section</section>
+//             <aside>aside</aside>
+//             <footer>footer</footer>
+//          </div>
+//     }
+// }
