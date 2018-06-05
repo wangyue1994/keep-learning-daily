@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { List, PullToRefresh } from 'antd-mobile'
 import './App.css'
-import { FlexPractice} from './components/flexPractice'
+import FlexPractice from './components/flexPractice'
 
 const Item = List.Item
 const Brief = Item.Brief
@@ -52,7 +52,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header>
+        <FlexPractice/>
+        {/* <header>
           header
         </header>
         <nav>
@@ -87,7 +88,7 @@ class App extends Component {
         </article>
         <footer>
           footer
-        </footer>
+        </footer> */}
       </div>
     );
   }
