@@ -1,4 +1,5 @@
 import React from 'react'
+import './flexPractice.less'
 
 export default class FlexPractice extends React.Component {
     constructor() {
@@ -10,14 +11,14 @@ export default class FlexPractice extends React.Component {
 
     render() {
         return (
-            <div>
+            <main style={{background: 'yellow', height: '1000px'}}>
                 <header>header</header>
                 <nav>nav</nav>
                 <article>article</article>
                 <section>section</section>
                 <aside>aside</aside>
                 <footer>footer</footer>
-            </div>
+            </main>
         )
     }
 }
