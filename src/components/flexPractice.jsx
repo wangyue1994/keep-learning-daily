@@ -13,7 +13,7 @@ export default class FlexPractice extends React.Component {
         return (
             <main style={{background: 'yellow', height: '1000px'}}>
                 <header>header1</header>
-                <nav>nav</nav>
+                <nav>nav1</nav>
                 <article>article</article>
                 <section>section</section>
                 <aside>aside</aside>
