@@ -1,6 +1,10 @@
 import React from 'react'
-import './flexPractice.less'
+import style from './flexPractice.less'
+var less = require('less');
 
+less.render('.class { width: 1 + 1 }', function (e, css) {
+    console.log(css);
+})
 export default class FlexPractice extends React.Component {
     constructor() {
         super()
@@ -12,11 +16,15 @@ export default class FlexPractice extends React.Component {
     render() {
         return (
             <main style={{background: 'yellow', height: '1000px'}}>
-                <header>header1</header>
-                <nav>nav1</nav>
-                <article>article</article>
-                <section>section</section>
-                <aside>aside</aside>
+                <header className={style.header}>header</header>
+                <nav>nav</nav>
+                <article>article1</article>
+                <section style={{background: 'pink', height: '100px'}}>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                </section>
                 <footer>footer</footer>
             </main>
         )
