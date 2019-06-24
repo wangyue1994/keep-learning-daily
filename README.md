@@ -8,4 +8,4 @@
 
 2019/6/22-23 出去吃了两顿饭交流了一些开了点眼界，但是自己没有学习技术，周日晚上看看技术相关的吧。
 
-2019/6/24 前端脚手架 框架 + css预处理 + webpack + jest + mock
+2019/6/24 前端脚手架 js框架 + ui组件框架 + 数据流处理框架 + css预处理 + webpack + http request + mock server + eslint + jest + moment + loadsh
