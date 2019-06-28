@@ -16,4 +16,4 @@
 
 2019/6/27 今天学习了 TypeScript + react16.8 hook + redux，之前用 JavaScript + class component + mobx 感觉省事一点，但是也要了解比较新的技术栈，今天开发任务完成也算顺利，但是自己也要想到其背后的原理和趋势，自己的博客也开始运作了配合github，所以记录整理知识会在blog里体现。
 
-2019/6/28 每日学习记录已经迁移到 [个人博客](wangyue1994.github.io)
+2019/6/28 每日学习记录已经迁移到 [个人博客](https://wangyue1994.github.io)
